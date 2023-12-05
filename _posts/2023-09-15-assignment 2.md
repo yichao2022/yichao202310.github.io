@@ -1,5 +1,5 @@
 ---
-title:  "Assignment 2"
+title:  "Assignment2"
 mathjax: true
 layout: post
 categories: media
