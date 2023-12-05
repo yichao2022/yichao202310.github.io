@@ -1,8 +1,8 @@
 
-# Plot charts using for loop
-# the color of the outline of the plot character changed to yellow
-# the background color of the plot character changed to blue
-# the line representing the "line of best fit" from blue to green
+#Plot charts using for loop
+the color of the outline of the plot character changed to yellow
+the background color of the plot character changed to blue
+the line representing the "line of best fit" from blue to green
 for(i in 1:4) {
   ff[2:3] <- lapply(paste0(c("y","x"), i), as.name)
   plot(ff, data = anscombe, col = "yellow", pch = 23, bg = "blue", cex = 1.2,
@@ -13,11 +13,12 @@ mtext("Anscombe's 4 Regression data sets", outer = TRUE, cex = 1.5)
 par(op)
 ![image](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/bed0d4ba-a05b-49c6-84be-fdd83f7537c7)
 
-# Download COVID data from OWID GitHub
+##plot the graph for scatterplot matrix;
+ Download COVID data from OWID GitHub
 owidall <- read.csv("https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv?raw=true")
-# Deselect cases/rows with OWID
+ Deselect cases/rows with OWID
 owidall <- owidall[!grepl("^OWID", owidall$iso_code), ]
-# Subset by continent: Europe
+Subset by continent: Europe
 owideu <- subset(owidall, continent=="Europe")
 
 date <- as.Date(owideu$date, format = "%Y-%m-%d")
@@ -39,9 +40,9 @@ text(x = as.Date("2021-11-01"), y = 5000, labels = "Ukraine", cex = 0.5)
 text(x = as.Date("2023-01-01"), y = 1500, labels = "Germany", cex = 0.5)
 text(x = as.Date("2023-09-20"), y = 500, labels = "Italy", cex = 0.5)## Download COVID data from OWID GitHub
 owidall <- read.csv("https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv?raw=true")
-# Deselect cases/rows with OWID
+ Deselect cases/rows with OWID
 owidall <- owidall[!grepl("^OWID", owidall$iso_code), ]
-# Subset by continent: Europe
+ Subset by continent: Europe
 owideu <- subset(owidall, continent=="Europe")
 
 date <- as.Date(owideu$date, format = "%Y-%m-%d")
