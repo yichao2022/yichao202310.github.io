@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, URL, icon, sidebaricon}
   - {file: "index.html", title: "Assignments"}
-  - {url"https://www.canva.com/design/DAF0gDy5oQw/N62McxQ3GfncCNkhYw44Gw/view?utm_content=DAF0gDy5oQw&utm_campaign=designshare&utm_medium=link&utm_source=editor", title: "Projects"}
+  - {file: "README.md", title: "Projects"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:yichao.jin@utdallas.edu"}
