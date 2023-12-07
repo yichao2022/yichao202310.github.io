@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, URL, icon, sidebaricon}
   - {file: "index.html", title: "Assignments"}
-  - {file: "README.md", title: "Projects"}
+  - {url: "https://github.com/yichao2022/yichao202310.github.io/blob/6dfeb4ce19da4610f888b245f2643cd7f753096e/DATA%20VIS%20FINAL.pdf", title: "Projects"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:yichao.jin@utdallas.edu"}
