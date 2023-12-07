@@ -1,99 +1,26 @@
 ---
-title: "About"
+title: "Project"
 permalink: "/about/"
 layout: page
 ---
 
-## Installation
-
-Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
-
-## Features
-
- - supports dark mode on macOS Mojave
- - optional sidebar
- - MathJax support
- - no external ressources
- - included archive page
- - supports pagination
- - feed generation
- - responsive
- - syntax highlighting
- - supports comments via [disqus](https://disqus.com/) or [isso](http://posativ.org/isso/)
-
-## Based on
-
-- [Hyde](https://github.com/poole/hyde)
-- [Minima](https://github.com/jekyll/minima)
-- [Lagrange](https://github.com/LeNPaul/Lagrange)
-- [Font Awesome](http://fontawesome.io/)
-- [KaTeX](https://katex.org/)
-- [Pygments](https://github.com/richleland/pygments-css)
-
-## Installation (jekyll-remote-theme method)
-
-You can use this theme with the `jekyll-remote-theme` plugin. Just create an empty repo, copy over the `index.html` file and add this to your `_config.yml`:
-
-```yaml
-remote_theme: niklasbuschmann/contrast@v2.11
-
-plugins:
-  - jekyll-remote-theme
-```
-
-Note: to enable icons you also need to copy over the `_data` folder.
-
-## Config
-
-Your `_config.yml` could for example look like this:
-
-```yaml
-title: "Blog Title"
-author: "Blog Author"
-description: "My personal blog about ... something"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
-
-# Layout
-
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-
-# Menu
-
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
-
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
-plugins:
- - jekyll-feed
-
-```
-
-## MathJax
-
-Contrast comes preinstalled with a leightweight alternative to MathJax called [KaTeX](https://katex.org/). To display equations in a post simply set `mathjax: true` in the article's front matter.
-
-## License
-
-[public domain](http://unlicense.org/)
-
 ## Screenshots
 
-![screenshot](https://user-images.githubusercontent.com/4943215/109431850-cd711780-7a08-11eb-8601-2763f2ee6bb4.png)
+![DATA VIS FINAL (4)-01](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/b6b463da-0057-44d9-beec-f7dccd75ce90)
+![DATA VIS FINAL (4)-02](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/f8c8a732-bf42-4e7f-9c33-17b43b11786f)
+![DATA VIS FINAL (4)-03](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/2315132d-7d1a-456c-91d0-924c65e8213c)
+![DATA VIS FINAL (4)-04](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/2b896ba2-3a97-448c-83c4-021937f701d1)
+![DATA VIS FINAL (4)-05](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/21bcec1e-b759-4838-9fc9-ce75df3868b9)
+![DATA VIS FINAL (4)-06](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/aaf3dbb0-f832-475b-9d96-fb03f124479d)
+![DATA VIS FINAL (4)-07](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/20086ad9-642f-4b53-8ade-cf0562292188)
+![DATA VIS FINAL (4)-08](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/7a1b3a5c-e9ec-463f-8c70-b78aa6f4c5a7)
+![DATA VIS FINAL (4)-09](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/eda5bf9f-381c-4120-b11c-9e65b260841e)
+![DATA VIS FINAL (4)-10](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/627c1869-290a-44a6-8eed-d452df23c1d3)
+![DATA VIS FINAL (4)-11](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/d10b44ad-d9ef-435b-83b3-9386a295f4f7)
+![DATA VIS FINAL (4)-12](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/5dcfa533-eecc-462c-a668-0eb613c954c6)
+![DATA VIS FINAL (4)-13](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/33c1766d-4320-4ca8-94f2-32c277c8d84a)
+![DATA VIS FINAL (4)-14](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/49dafe23-6c2e-4af0-82b7-5ac82fc79110)
+![DATA VIS FINAL (4)-15](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/81f024f4-3197-4248-8344-c7ea9c75eb1d)
+![DATA VIS FINAL (4)-16](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/3a2235e0-2bc9-4764-a674-44789a1ee23d)
+![DATA VIS FINAL (4)-17](https://github.com/yichao2022/yichao202310.github.io/assets/113857588/f4b5b2ff-a222-4403-8c28-9647901e8437)
 
-![screenshot](https://user-images.githubusercontent.com/4943215/109431832-b6cac080-7a08-11eb-9c5e-a058680c23a1.png)
-
-![screenshot](https://user-images.githubusercontent.com/4943215/73125194-5f0b8b80-3fa4-11ea-805c-8387187503ad.png)
